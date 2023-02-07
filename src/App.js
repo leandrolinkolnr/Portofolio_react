@@ -1,5 +1,6 @@
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
+import { Description } from "./components/Description";
 import './styles/index.css'
 
 function App() {
@@ -8,7 +9,9 @@ function App() {
       <Header />
 
       <main>
-        Main
+         <section className="main-content"> 
+         <Description />
+         </section>
       </main>
 
       <Footer />
