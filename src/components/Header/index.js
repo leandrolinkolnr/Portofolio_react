@@ -1,13 +1,13 @@
 import { SocialLink } from "./SocialLink"
-import  './styles.css'
+import  './style.css'
 
 export function Header() {
     return(
         <header>
             <h1>Leandro Lincoln</h1>
             <nav>
-                <SocialLink url="https://github.com/leandrolinkolnr" 
-                icon="fa-brands fa-github" />
+            <SocialLink url="https://github.com/leandrolinkolnr"
+            icon="fa-brands fa-github" />
             </nav>
         </header>
     )
