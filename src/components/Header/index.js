@@ -12,6 +12,8 @@ export function Header() {
             icon="fa-brands fa-github" />
             <SocialLink url="https://instagram.com/leandrolinkoln/"
             icon="fa-brands fa-instagram" />
+            <SocialLink url="https://www.facebook.com/leandro.linkoln/"
+            icon="fa-brands fa-facebook" />
 
             </nav>
         </header>
