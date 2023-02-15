@@ -1,8 +1,8 @@
-import { Header } from "./components/Header";
-import { Footer } from "./components/Footer";
-import { Description } from "./components/Description";
-import { Profile } from "./components/Profile";
-import { CardsContaniner } from "./components/CardsContainer";
+import  Header  from "./components/Header";
+import  Footer  from "./components/Footer";
+import  Description  from "./components/Description";
+import  Profile  from "./components/Profile";
+import  CardsContaniner  from "./components/CardsContainer";
 import './styles/index.css'
 
 function App() {

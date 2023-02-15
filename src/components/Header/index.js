@@ -1,10 +1,10 @@
-import { SocialLink } from "./SocialLink"
+import  SocialLink  from "./SocialLink"
 import  './header.css'
 
-export function Header() {
+function Header() {
     return(
         <header>
-            <h1>Leandro Lincoln</h1>
+            <h1> >>  Leandro Lincoln</h1>
             <nav>
             <SocialLink url="https://linkedin.com/in/leandrolincoln"
             icon="fa-brands fa-linkedin" />
@@ -19,5 +19,7 @@ export function Header() {
         </header>
     )
 }
+
+export default Header;
 
 

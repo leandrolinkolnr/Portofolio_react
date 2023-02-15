@@ -1,7 +1,7 @@
 import photo from "../../assets/leandrolincoln.jpg"
 import './profile.css'
 
-export function Profile() {
+function Profile() {
     return(
         <figure>
             <img src={ photo } alt="Imagem de Leandro Lincoln" />
@@ -9,3 +9,5 @@ export function Profile() {
         </figure>
     )
 }
+
+export default Profile;

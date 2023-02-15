@@ -1,6 +1,6 @@
 import  './footer.css'
 
-export function Footer() {
+function Footer() {
     return(
         <footer>
             <span>
@@ -9,3 +9,6 @@ export function Footer() {
         </footer>
     )
 }
+
+
+export default Footer;

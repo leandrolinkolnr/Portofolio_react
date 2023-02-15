@@ -1,5 +1,5 @@
 
-import { Card } from './Card'
+import  Card  from './Card'
 import './cardsContainer.css'
 
 import HTMLLogo from '../../assets/techs/html-logo.png'
@@ -9,10 +9,10 @@ import TsLogo from '../../assets/techs/ts-logo.png'
 import AngularLogo from '../../assets/techs/angular-logo.png'
 import CssLogo from '../../assets/techs/css-logo.png'
 
-export function CardsContaniner(){
+function CardsContaniner(){
     return(
         <div className="techs">
-            <h2>👨🏽‍💻 Tecnologias</h2>
+            <h2>👨🏽‍💻  Tecnologias</h2>
             <main className="cards-container">
                 <Card image={ JsLogo } alt="Logo do Javascript"/>
                 <Card image={ TsLogo } alt="Logo do Typescript"/>
@@ -24,3 +24,5 @@ export function CardsContaniner(){
         </div>
     )
 }
+
+export default CardsContaniner;
